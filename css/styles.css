@@ -53,6 +53,7 @@ a:hover {
 
 footer {
     margin: 20px;
+    margin-top: 40px;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
@@ -79,7 +80,6 @@ footer {
 }
 
 .lead {
-    padding-bottom: 30px;
     font-size: 24px;
 }
 
@@ -146,10 +146,15 @@ ul.posts li {
 }
 
 .content-intro {
-    font-size: 18px;
+    font-size: 21px;
 }
 
 /* Post format specific */
+
+.entire-post {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 .back-button {
     margin-top: 30px;
@@ -168,7 +173,6 @@ ul.posts li {
 
 #post-content {
     padding-bottom: 15px;
-    font-size: 24px;
 }
 
 
