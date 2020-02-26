@@ -87,23 +87,13 @@ footer {
 
 .proj-card {
     max-width: none;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.border-research {
+.border-current {
     border-color: rgb(120, 165, 223);
-    border-width: 3px;
-}
-
-.border-website {
-    border-color: rgb(223, 120, 151);
-    border-width: 3px;
-}
-
-.border-app {
-    border-color: rgb(120, 223, 189);
     border-width: 3px;
 }
 
