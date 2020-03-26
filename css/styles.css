@@ -10,17 +10,20 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .navbar-custom {
-    background-color: rgb(136, 183, 236);
+    background-color: white;
 }
 
 .navbar-custom .navbar-text {
-    color: white;
+    color: rgb(136, 183, 236);
     opacity: 100%;
-    margin-right: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 22px;
 }
 
 nav ul, footer ul {
@@ -36,9 +39,12 @@ nav ul li, footer ul li {
 
 .name {
     margin-left: 15px;
-    color: white;
-    font-size: 48px;
+    margin-top: 10px;
+    color: black;
+    font-size: 52px;
     font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: rgb(136, 183, 236);
 }
 
 a {
@@ -58,15 +64,32 @@ footer {
     font-size: .8em;
 }
 
+#made-by {
+    float: right;
+    font-weight: normal;
+}
+
 /* Home page specific */
 
-.homepage {
+.homepage-info {
     display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 40px;
+    padding-top: 0px;
+    padding-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
 
 .photo {
-    margin-top: 50px;
+    margin-left: 5px;
+    margin-top: 52px;
     float: left;
+}
+
+#me {
+    border-radius: 120px;
 }
 
 .blurb {
@@ -75,15 +98,51 @@ footer {
 }
 
 .display-3 {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    margin-left: 19px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .lead {
+    margin-left: 23px;
     font-size: 24px;
 }
 
+.info-sections {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.section-header {
+    font-size: 36px;
+}
+
+#current {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.current-items {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.lets-talk {
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.section2 {
+    margin-top: 30px;
+}
+
 /* Projects specific */
+
+.page-header {
+    text-decoration: underline;
+    text-decoration-color: rgb(136, 183, 236);
+}
 
 .proj-card {
     max-width: none;
