@@ -139,13 +139,8 @@ footer {
 
 /* Projects specific */
 
-.page-header {
-    text-decoration: underline;
-    text-decoration-color: rgb(136, 183, 236);
-}
-
 .timeline-container {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 ul.timeline {
