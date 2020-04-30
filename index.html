@@ -2,31 +2,69 @@
 layout: default
 title: Alice Yeh
 ---
-<div class="homepage-info">
-    <div class="photo">
-        <img id="me" src="/assets/me.png">
+<div class="beginning-screen">
+    <div class="homepage-info">
+        <div class="photo">
+            <img id="me" src="/assets/me.png">
+        </div>
+        <div class="blurb" class="jumbotron">
+            <h1 class="display-3">Hi, I'm Alice!</h1>
+            <p class="lead">I'm a high school senior at BASIS Independent Silicon Valley in the San Francisco Bay Area. I'm interested in exploring the interdisciplinary
+                applications of computer science and creating impactful projects through collaboration. Check out <a href="#projects">what I'm working on</a> and <a href="#reach-out">feel free to reach out</a>!</p>
+        </div>
     </div>
-    <div class="blurb" class="jumbotron">
-        <h1 class="display-3">Hi, I'm Alice!</h1>
-        <p class="lead">I'm a high school senior at BASIS Independent Silicon Valley in the San Francisco Bay Area. I'm interested in exploring the interdisciplinary
-            applications of computer science and creating impactful projects through collaboration. Check out <a href="/projects">what I'm working on</a> and <a href="#reach-out">feel free to reach out</a>!</p>
+
+    <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
 </div>
 
-<div class="info-sections">
+<div id="about-me" class="info-sections">
+    <h1 class="display-3 page-header">About</h1>
     <div class="section1">
         <h1 class="section-header">&#128204 Currently, I'm...</h1>
         <ul id="current">
-            <li class="current-items">Co-founding and developing a startup (details to come soon!)</li>
+            <li class="current-items">Co-founding and developing a startup, which has been 1 of 24 projects accepted to the Mozilla Fix-the-Internet Spring MVP Lab!</li>
+            <li class="current-items">Building and maintaining software tools for the Young Scientists Journal</li>
             <li class="current-items">Working on my <a class="current-items" href="https://siliconvalley.basisindependent.com/author/alicey/" target="_blank">senior project</a>, where I am developing code to analyze and explain nanopore-based sequencing limitations</li>
             <li class="current-items">Attending <em>virtual</em> tech conferences, hackathons, and workshops</li>
-            <li class="current-items">Maintaining and creating challenges for our Science Olympiad club's weekly challenges <a class="current-items" href="https://sochallenges.github.io/" target="_blank">website</a></li>
-            <li class="current-items">Developing and expanding the curriculum for my <a class="current-items" href="https://events.aclibrary.org/event/5726589" target="_blank">Kickboxing and Self Defense Program</a></li>
         </ul>
-        <p class="current-items lets-talk">Last updated: 3/25/2020</a></p>
+        <p class="current-items lets-talk">Last updated: 4/29/2020</a></p>
     </div>
     <a id="reach-out"><div class="section2"></div></a>
         <h1 class="section-header">&#128587 Let's collaborate!</h1>
         <p class="current-items lets-talk">I'm always excited to talk to and collaborate with new people and hear from different perspectives! Feel free to reach out via <a class="current-items" href="mailto:aliceyeh12@gmail.com">email</a>.</p>
+    </div>
+</div>
+
+
+<div id="projects" class="project-section info-sections">
+    <h1 class="display-3 page-header">Projects</h1>
+    <div class="timeline-container">
+        <ul class="timeline">
+            <li class="reveal">
+                <h5 class="timeline-date">June 2019 - Present</h5>
+                <div class="timeline-event">
+                    <h3 class="proj-title">Elucidating Nanopore-Based Long-Read Sequencing Limitations By Investigating RNA Sequence and Structure Level Features</h3>
+                    <h5 class="proj-subtitle">Simons Summer Research Program</h5>
+                    <p class="proj-text">Developed Python programs to analyze sequence and structure level RNA features that contribute to read
+                            truncation in long-read nanopore sequencing. Such research has potential implications in improving sequencing technology, which has applications that range from cancer research to water testing to forensics.</p>
+                    <a href="https://github.com/AliceYeh12/nanopore-analysis" class="card-link" target="_blank">Project Code</a>
+                    <a href="https://siliconvalley.basisindependent.com/author/alicey/" class="card-link" target="_blank">Senior Project Blog</a>
+                </div>
+            </li>
+            <li class="reveal">
+                <h5 class="timeline-date">June 2018 - October 2019</h5>
+                <div class="timeline-event">
+                    <h3 class="proj-title">Mining Classification Rules for HIV-1 Protease Cleavage Sites Using Simplified Swarm Optimization</h3>
+                    <p class="proj-text">Generated a C-based computer program, utilizing simplified swarm optimization, to optimize an HIV-1
+                            protease data set, containing protein octamer sequences, and to classify protease cleavage, achieving a prediction accuracy above 97%. Reliable predictors can contribute to increasing the specificity of protease inhibitors and improving antiretroviral therapy.</p>
+                    <a href="https://github.com/AliceYeh12/hiv-1-protease-cleavage" class="card-link" target="_blank">Project Code</a>
+                <a href="https://doi.org/10.1145/3358331.3358335" class="card-link" target="_blank">Publication</a>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
