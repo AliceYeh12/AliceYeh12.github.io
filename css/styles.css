@@ -123,7 +123,7 @@ footer {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.arrow span{
+.arrow span {
     display: block;
     width: 40px;
     height: 40px;
@@ -159,18 +159,21 @@ footer {
 }
 
 .info-sections {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0px 50px 75px 50px;
 }
 
 .page-header {
     margin-top: -40px;
     align-content: flex-start;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-size: 50px;
     text-decoration: underline;
     text-decoration-color: rgb(136, 183, 236);
     opacity: 75%;
+}
+
+.content-container {
+    margin-left: 25px;
 }
 
 .section-header {
@@ -192,9 +195,18 @@ footer {
     font-weight: normal;
 }
 
+.last-update {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .lets-talk {
     margin-left: 45px;
     margin-top: 20px;
+}
+
+.section1 {
+    margin-top: 15px;
 }
 
 .section2 {
@@ -206,19 +218,15 @@ footer {
     margin-top: -100px;
 }
 
-.project-section {
-    margin: 210px;
-    margin-bottom: 60px;
-}
-
 .timeline-container {
-    margin-top: 25px;
+    padding-top: 0px;
 }
 
 ul.timeline {
     list-style-type: none;
     position: relative;
 }
+
 ul.timeline:before {
     content: ' ';
     background: #d4d9df;
@@ -264,6 +272,18 @@ ul.timeline > li:before {
 .border-current {
     border-color: rgb(120, 165, 223);
     border-width: 3px;
+}
+
+#gem-proj {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.proj-icon {
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 2px 0px black;
 }
 
 .proj-title {
@@ -324,6 +344,11 @@ ul.posts li {
 
 .content-intro {
     font-size: 21px;
+}
+
+#contact {
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 /* Post format specific */
