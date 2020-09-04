@@ -42,8 +42,6 @@ nav ul li, footer ul li {
     color: black;
     font-size: 52px;
     font-weight: normal;
-    text-decoration: underline;
-    text-decoration-color: white;
 }
 
 .fix-scroll {
@@ -85,24 +83,21 @@ footer {
     margin-bottom: 50px;
     padding: 40px;
     padding-top: 0px;
-    padding-right: 20px;
     box-shadow: 0 4px 8px 0 rgb(136, 183, 236);
     border-radius: 10px;
 }
 
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
 .photo {
-    margin-left: 0px;
-    margin-top: 52px;
-    float: left;
+    margin-right: 30px;
 }
 
 #me {
     border-radius: 120px;
-}
-
-.blurb {
-    width: 76.5%;
-    float: right;
 }
 
 .display-3 {
@@ -113,11 +108,11 @@ footer {
 
 .lead {
     margin-left: 23px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .arrow{
-    margin-top: 230px;
+    margin-top: 270px;
     position: absolute;
     top: 50%;
     left: 50%;
