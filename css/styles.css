@@ -12,15 +12,15 @@ html, body {
 }
 
 .navbar-custom {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgb(190, 215, 243);
+    background-color: rgb(190, 215, 243);
+    box-shadow: 0 4px 8px 0 rgb(219, 231, 247);
     width: 100%;
     margin-top: -15px;
     z-index: 1;
 }
 
 .navbar-custom .navbar-text {
-    color: rgb(120, 165, 223);
+    color: black;
     margin-right: 20px;
     margin-top: 15px;
     font-size: 22px;
