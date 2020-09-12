@@ -4,28 +4,40 @@ title: Alice Yeh
 ---
 <div class="beginning-screen">
     <div class="homepage-info">
-        <div class="flex-container">
+        <div id="about-me" class="flex-container">
             <div class="photo">
                 <img id="me" src="/assets/me.png">
+                <h2 class="name">Alice Yeh</h2>
+                <a href="mailto:aliceyeh12@gmail.com" target="_blank"><i class="fas fa-envelope fa-5x icon"></i></a>
+                <a href="https://github.com/AliceYeh12" target="_blank"><i class="fab fa-github fa-5x icon"></i></a>
+                <a href="https://www.linkedin.com/in/aliceyeh12/" target="_blank"><i class="fab fa-linkedin fa-5x icon"></i></a>
+                <p class="sz"><i class="fas fa-graduation-cap spc"></i>CS @ UC Berkeley</p>
+                <p class="sz"><i class="fas fa-briefcase spc"></i>Student, Builder, Entrepreneur</p>
+                <p class="sz"><i class="fas fa-map-marker-alt spc"></i>SF Bay Area</p>
             </div>
             <div class="blurb" class="jumbotron">
                 <h1 class="display-3">Hi, I'm Alice!</h1>
-                <p class="lead">I'm a freshman studying computer science at the University of California, Berkeley. I'm interested in exploring the 
-                    interdisciplinary applications of computer science and have worked on 
-                    projects at the intersection of computer science and finance (Goldman Sachs), health (Stony Brook University), and visual arts (Google). My enjoyment for creating impactful projects collaboratively
-                    also motivated the creation of GEM, a startup that I co-founded centered around creating wearable technology for personal safety.</p>
+                <p class="lead">I'm a freshman studying computer science at the University of California, Berkeley. I am interested in exploring the interdisciplinary applications of CS and creating impactful projects through collaboration.</p>
+                <p class="para">Currently, you can find me (at home)...</p>
+                <ul id="current">
+                    <li class="current-items"><b class="lg">&#128142</b> <b>Developing</b> the technology and business model for my startup <a class="current-items" href="#gem-proj">GEM</a>, where we're creating wearable technology for personal safety.</li>
+                    <li class="current-items"><b class="lg">&#128129</b> <b>Researching</b> the sentiment foodservice and retail workers have towards their jobs in the Voss lab at Berkeley.</li>
+                    <li class="current-items"><b class="lg">&#128736</b> <b>Building</b> <a class="current-items" href="https://enabletech.berkeley.edu/et_projects/active-projects/" target="_blank">Robohand</a>, an open source robotic finger for the Jaco robotic arm from Kinova for those with limited or no upper limb mobility, as part of the EnableTech team.</li>
+                    <li class="current-items"><b class="lg">&#127793</b> <b>Participating</b> in the inaugural cohort of the <a class="current-items" href="https://aforezt1.landen.co/" target="_blank">Afore Zero-to-1 Program</a> for early stage founders.</li>
+                </ul>
+                <p class="para">In my free time, I'm an avid hackathon-goer and a tabletop game enthusiast (fun fact: I've played The Resistance: Avalon 421 times).</p>
             </div>
         </div>
     </div>
 
-    <div class="arrow">
+    <!-- <div class="arrow">
         <span></span>
         <span></span>
         <span></span>
-    </div>
+    </div> -->
 </div>
 
-<div id="about-me" class="info-sections">
+<!-- <div id="about-me" class="info-sections">
     <h1 class="display-3 page-header">About</h1>
     <div class="content-container">
         <div class="section1">
@@ -48,11 +60,7 @@ title: Alice Yeh
             <p class="current-items last-update">Last updated: 9/3/2020</a></p>
         </div>
     </div>
-    <!-- <div class="section2">
-        <h1 class="section-header">&#128587 Let's collaborate!</h1>
-        <p class="current-items lets-talk">I'm always excited to talk to and collaborate with new people and hear from different perspectives! Feel free to reach out via <a class="current-items" href="mailto:aliceyeh12@gmail.com">email</a>.</p>
-    </div> -->
-</div>
+</div> -->
 
 <div id="projects" class="info-sections">
     <h1 class="display-3 page-header">Projects</h1>
@@ -83,34 +91,26 @@ title: Alice Yeh
     </div>
 </div>
 
-<!-- <div id="projects" class="info-sections">
-    <h1 class="display-3 page-header">Projects</h1>
-    <div class="timeline-container">
-        <ul class="timeline">
-            <li class="reveal">
-                <h5 class="timeline-date">June 2019 - Present</h5>
-                <div class="timeline-event">
-                    <h3 class="proj-title">Elucidating Nanopore-Based Long-Read Sequencing Limitations By Investigating RNA Sequence and Structure Level Features</h3>
-                    <h5 class="proj-subtitle">Simons Summer Research Program</h5>
-                    <p class="proj-text">Developed Python programs to analyze sequence and structure level RNA features that contribute to read
-                            truncation in long-read nanopore sequencing. Such research has potential implications in improving sequencing technology, which has applications that range from cancer research to water testing to forensics.</p>
-                    <a href="https://github.com/AliceYeh12/nanopore-analysis" class="card-link" target="_blank">Project Code</a>
-                    <a href="https://siliconvalley.basisindependent.com/author/alicey/" class="card-link" target="_blank">Senior Project Blog</a>
+<div id="entrepreneurship" class="info-sections">
+    <h1 class="display-3 page-header">Entrepreneurship</h1>
+    <div class="content-container section1">
+        <div class="flex-ent">
+            <div class="card card-ent">
+                <div class="card-body">
+                    <h4 class="ent-title">Afore Zero-to-1 Program (F20)<a href="https://aforezt1.landen.co/" target="_blank" class="stretched-link"></a></h4>
+                    <p class="card-text card-txt-ent">Selected from 600+ applicants to join a cohort of early stage founders navigating product development, customer acquisition, building an early team, fundraising, and managing the emotional journey.</p>
                 </div>
-            </li>
-            <li class="reveal">
-                <h5 class="timeline-date">June 2018 - October 2019</h5>
-                <div class="timeline-event">
-                    <h3 class="proj-title">Mining Classification Rules for HIV-1 Protease Cleavage Sites Using Simplified Swarm Optimization</h3>
-                    <p class="proj-text">Generated a C-based computer program, utilizing simplified swarm optimization, to optimize an HIV-1
-                            protease data set, containing protein octamer sequences, and to classify protease cleavage, achieving a prediction accuracy above 97%. Reliable predictors can contribute to increasing the specificity of protease inhibitors and improving antiretroviral therapy.</p>
-                    <a href="https://github.com/AliceYeh12/hiv-1-protease-cleavage" class="card-link" target="_blank">Project Code</a>
-                <a href="https://doi.org/10.1145/3358331.3358335" class="card-link" target="_blank">Publication</a>
+            </div>
+            <div class="card card-ent">
+                <div class="card-body">
+                    <h4 class="ent-title">Mozilla Fix-the-Internet MVP Lab (Sp20)<a href="https://builders.mozilla.community/" target="_blank" class="stretched-link"></a></h4>
+                    <h5 class="card-subtitle mb-2 text-muted">GEM</h5>
+                    <p class="card-text card-txt-ent">1 of 24 teams, selected from over 500+ teams around the world, to participate in an 8 week-long incubator-style program to mobilize and fund around products and technologies that enable everyone to connect and build a better society.</p>
                 </div>
-            </li>
-        </ul>
-    </div> 
-</div> -->
+            </div>
+        </div>
+    </div>
+</div>
 
 <div id="contact" class="info-sections">
     <h1 class="display-3 page-header">Let's Collaborate!</h1>

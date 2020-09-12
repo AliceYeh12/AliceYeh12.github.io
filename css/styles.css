@@ -12,14 +12,15 @@ html, body {
 }
 
 .navbar-custom {
-    background-color: rgb(185, 217, 253);
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(190, 215, 243);
     width: 100%;
     margin-top: -15px;
     z-index: 1;
 }
 
 .navbar-custom .navbar-text {
-    color: black;
+    color: rgb(120, 165, 223);
     margin-right: 20px;
     margin-top: 15px;
     font-size: 22px;
@@ -34,14 +35,6 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}
-
-.name {
-    margin-left: 15px;
-    margin-top: 10px;
-    color: black;
-    font-size: 52px;
-    font-weight: normal;
 }
 
 .fix-scroll {
@@ -79,25 +72,40 @@ footer {
 
 .homepage-info {
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 90px;
     margin-bottom: 50px;
-    padding: 40px;
-    padding-top: 0px;
-    box-shadow: 0 4px 8px 0 rgb(136, 183, 236);
-    border-radius: 10px;
 }
 
 .flex-container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .photo {
-    margin-right: 30px;
+    margin-right: 50px;
+    text-align: center;
 }
 
 #me {
     border-radius: 120px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgb(190, 215, 243);
+}
+
+.name {
+    margin-top: 30px;
+    color: black;
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.icon {
+    margin: 5px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: rgb(136, 183, 236);
 }
 
 .display-3 {
@@ -106,9 +114,36 @@ footer {
     padding-bottom: 20px;
 }
 
+.sz {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.spc {
+    margin-right: 8px;
+    font-size: 16px;
+    width: 18px;
+}
+
 .lead {
-    margin-left: 23px;
-    font-size: 22px;
+    margin: 5px 0px 20px 23px;
+    font-size: 20px;
+    font-weight: normal;
+    /* padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px 0 rgb(190, 215, 243); */
+}
+
+.para {
+    margin: 5px 0px 20px 23px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.lg {
+    font-size: 24px;
+    margin-right: 5px;
 }
 
 .arrow{
@@ -178,10 +213,11 @@ footer {
 #current {
     margin-left: 25px;
     margin-top: 20px;
+    list-style: none;
 }
 
 .current-items {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 5px;
     font-weight: normal;
 }
@@ -339,6 +375,34 @@ ul.posts li {
 
 .content-intro {
     font-size: 21px;
+}
+
+#entrepreneurship {
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+.flex-ent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-ent {
+    width: 33%;
+    margin: 0px 12px 0px 12px;
+    position: relative;
+}
+
+.ent-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.card-txt-ent {
+    margin-top: 15px;
+    font-size: 18px;
 }
 
 #contact {
