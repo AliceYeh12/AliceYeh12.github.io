@@ -392,6 +392,15 @@ ul.posts li {
     width: 33%;
     margin: 0px 12px 0px 12px;
     position: relative;
+    opacity: 90%;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 4px 6px 0 rgb(180, 198, 219);
+}
+
+.card-ent:hover {
+    opacity: 100%;
+    box-shadow: 1px 4px 8px 0 rgb(136, 183, 236);
 }
 
 .ent-title {
